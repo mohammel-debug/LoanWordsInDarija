@@ -5,7 +5,7 @@ This project focuses on the identification and extraction of non-Arabic loanword
 ## Results Summary
 Through four rounds of iterative extraction, we processed 3,995 sentences and identified **487 unique loanword tokens**.
 
-<img width="858" height="672" alt="image" src="https://github.com/user-attachments/assets/5593db54-3abe-471b-b6fe-f249eea5856d" />
+<img width="374" height="330" alt="image" src="https://github.com/user-attachments/assets/ee2242ad-15ab-49d4-a2e0-fa268910de40" />
 
 ## Methodology
 The project follows the theoretical framework established by **Heath (1989)**, distinguishing between spontaneous code-switching and integrated borrowings.
@@ -15,9 +15,9 @@ The extraction pipeline uses Unix stream processing:
 2. **Expansion:** Using `grep` with whole-word matching to identify known loans in the remaining corpus.
 3. **Deduplication:** Comparing vocabularies across rounds to isolate new lexical entries.
 
-## 📚 References
+## References
 * Heath, J. (1989). *From Code-Switching to Borrowing: Foreign and Diglossic Mixing in Moroccan Arabic*.
 * DODa (Darija Open Dataset) Corpus.
 
-## 👤 Author
+## Author
 **Mohammed El khamlichi**
